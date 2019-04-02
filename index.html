@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script
+    src="http://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="ui secondary pointing menu top-menu">
+        <div class="right menu">
+          <a class="item">
+            About Us
+          </a>
+          <a class="ui item">
+            Disciplines
+          </a>
+          <a class="ui item">
+            Contact Us
+          </a>
+        </div>
+      </div>
+      <div class="landing-start">
+        <h1>COLTRANE'S FIGHTING SYSTEMS</h1>
+        <h2> Premier Fight Academy in New York City </h2>
+        <h3> Contact Us: 646-206-1943 </h3>
+      </div>
+      <div class="about-us">
+        <h1> About Us </h1>
+        Coltrane's Fighting System is a Mixed Martial Arts Academy in NYC, that specializes in helping inner city youth
+        fight mass incarceration by channeling their spirits to mixed martial arts.
+      </div>
+      <div class="disciplines">
+        <h3> Muay Thai Boxing, Brazillian Jiu Jitsu, Freestyle & Submission Wrestling </h3>
+      </div>
+      <div class="contact-footer">
+      <h1>Fight Back!</h1>
+      <form class="ui form contact-form" action="/sendEmail" method="post">
+        <h2>Please contact us for your parts and accessories needs</h2>
+
+        <div class="field">
+          <label>Name</label>
+          <input type="text" name='name' placeholder="Name" required>
+        </div>
+        <div class="field">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="field">
+        <label>Message</label>
+        <textarea name="message" placeholder="Message"></textarea required>
+      </div>
+
+        <button class="ui button contact-btn subby" type="submit">Submit</button>
+      </form>
+
+    </div>
+
+    </body>
+</html>
