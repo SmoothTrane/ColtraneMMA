@@ -161,13 +161,30 @@ div.contact-footer h2 {
     width: 85%;
   }
   .page-wrapper{
-    margin:400px 0;
+    margin:300px 0;
   }
 
 }
 
 
 @media screen and (max-width: 600px){
+  .ui.secondary.pointing.menu.top-menu{
+    display:none;
+  }
+  .sticky{
+    position: static;
+    z-index:0;
+  }
+  .page-wrapper{
+    margin: 10px;
+  }
+
+  .disciplines h2{
+    font-size:14px;
+  }
+  p{
+    font-size: 14px;
+  }
 
 
 }

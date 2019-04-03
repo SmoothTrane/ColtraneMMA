@@ -4,9 +4,7 @@ $(document).ready(function(){
   {
     $(".loader").remove();
     $(".main-content").show();
-    //do something special
   }, 2000);
-
   $("#about").click(function(e){
     $("html").animate({
         scrollTop: $("html").offset().top
@@ -27,8 +25,4 @@ $(document).ready(function(){
         scrollTop: $(".contact-footer").offset().top
     }, 1000);
   })
-
-  // $(){
-  //
-  // }
 });
