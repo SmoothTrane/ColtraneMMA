@@ -81,7 +81,17 @@ h1{
 .main-content{
   height:100%;
   width:100%;
+  display:none;
+
 }
+.loader{
+  height:100%;
+  width:100%;
+  background-color: #333333;
+text-align:center;
+padding:50px;
+}
+
 .ui.secondary.pointing.menu.top-menu{
    width: 100%; /* Full width */
    text-align:center;
@@ -153,5 +163,11 @@ div.contact-footer h2 {
   .page-wrapper{
     margin:400px 0;
   }
+
+}
+
+
+@media screen and (max-width: 600px){
+
 
 }
