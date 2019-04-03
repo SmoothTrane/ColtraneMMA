@@ -1,17 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
-@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
 html, body{
   width: 100%;
   height: 100%;
+  font-family: 'Josefin Sans', serif;
+
 }
+
 body{
   color: white;
   background-color: #4c8c4a;
 }
-.ui.secondary.pointing.menu.top-menu{
-  font-size: 15px;
-   width: 100%; /* Full width */
+p{
+  font-size:18px;
 }
+.landing-start{
+  text-align:center;
+}
+.top-head{
+  padding: 30px;
+  background-color: #424242;
+
+}
+.top-head h2{
+  font-weight:normal;
+
+}
+h2{
+  font-family: 'Ubuntu', serif;
+}
+h1{
+  font-family: 'Vollkorn', serif;
+
+
+}
+.top-head h1{
+  font-size: 50px;
+  font-weight:normal;
+
+}
+.top-head h1, .top-head h2{
+  margin:0;
+}
+.top-head .head-img{
+  float:left;
+  width:100px;
+}
+.page-cont h1, .page-cont h2{
+  text-align:center;
+}
+.page-cont h1{
+  color: #333333;
+  font-size: 40px;
+}
+.page-cont h2{
+  font-size: 35px;
+}
+.center.menu{
+  margin: 0 auto !important;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1000;
+
+}
+
+.page-wrapper{
+  margin: 200px;
+}
+.page-cont{
+  border-bottom: 2px solid rgba(34, 36, 38, 0.15);
+  padding: 20px;
+}
+.main-content{
+  height:100%;
+  width:100%;
+}
+.ui.secondary.pointing.menu.top-menu{
+   width: 100%; /* Full width */
+   text-align:center;
+   background-color: #4c8c4a;
+   margin: 0;
+}
+.ui.secondary.pointing.menu.top-menu .item{
+  color:#333333;
+  font-weight: bolder;
+  font-size:20px;
+  font-family: 'Vollkorn', serif;
+
+
+
+}
+
+.text-highlight{
+  color: #333333;
+}
+.disciplines .body-img {
+  display:block;
+  margin: 20px auto;
+
+}
+.disciplines h2{
+  background-color: #333333;
+}
+
 div.contact-footer{
   width: 100%;
   text-align: center;
@@ -45,8 +143,15 @@ div.contact-footer h2 {
 .column-icon-itm {
   display: inline-block;
 }
+.text-img{
+  height:1em;
+}
 @media screen and (max-width: 900px){
   div.contact-footer .ui.form{
     width: 85%;
   }
+  .page-wrapper{
+    margin:400px 0;
+  }
+
 }

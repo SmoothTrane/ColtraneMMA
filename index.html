@@ -9,43 +9,118 @@
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js">
     </script>
+    <script src="scripts.js"> </script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 
   </head>
   <body>
     <div class="main-content">
-      <div class="ui secondary pointing menu top-menu">
-        <div class="right menu">
-          <a class="item">
-            About Us
-          </a>
-          <a class="ui item">
-            Disciplines
-          </a>
-          <a class="ui item">
-            Contact Us
-          </a>
+      <div class="head-wrapper sticky">
+        <div class="top-head">
+          <div class="landing-start">
+            <img class="head-img" src="wrestling.png">
+            <h1>COLTRANE'S FIGHTING SYSTEMS</h1>
+            <h2> NYC MMA </h2>
+          </div>
+        </div>
+        <div class="ui secondary pointing menu top-menu">
+          <div class=" center menu">
+            <a class="item" id="about">
+              ABOUT US
+            </a>
+            <a class="ui item" id="model">
+              CFS MODEL
+              </a>
+            <a class="ui item" id="disciplines">
+              DISCIPLINES
+            </a>
+            <a class="ui item" id="contact">
+              CONTACT US
+            </a>
+          </div>
         </div>
       </div>
-      <div class="landing-start">
-        <h1>COLTRANE'S FIGHTING SYSTEMS</h1>
-        <h2> Premier Fight Academy in New York City </h2>
-        <h3> Contact Us: 646-206-1943 </h3>
-      </div>
-      <div class="about-us">
-        <h1> About Us </h1>
-        Coltrane's Fighting System is a Mixed Martial Arts Academy in NYC, that specializes in helping inner city youth
-        fight mass incarceration by channeling their spirits to mixed martial arts.
-      </div>
-      <div class="disciplines">
-        <h3> Muay Thai Boxing, Brazillian Jiu Jitsu, Freestyle & Submission Wrestling </h3>
-      </div>
-      <div class="contact-footer">
-      <h1>Fight Back!</h1>
-      <form class="ui form contact-form" action="/sendEmail" method="post">
-        <h2>Please contact us for your parts and accessories needs</h2>
 
+      <div class="page-wrapper">
+        <div class="about-us page-cont">
+          <h1 name="tst" id="tst"> ABOUT US  </h1>
+          <div class="ui grid">
+            <div class="two column row">
+              <div class="left floated column">
+                <h2> Mission </h2>
+                <p>Coltrane's Fighting Systems mission is to channel inner city youth into the sport of mixed martial arts and allow mixed martial arts
+                to be a platform for excellence in academia, entrepreneurship, and community service. </p>
+                <p>The purpose of martial arts is to provide discipline, integrity, and honesty amongst all practicioners, which is expected for all members in CFS.
+                </p>
+              </div>
+              <div class="right floated column">
+                <h2> Values </h2>
+                <p>
+                Each member of CFS is expected to train hard, respect their peers, condone a positive attitude on and off the mats, and participate in monthly
+                mentorship sessions as a mentee or a mentor.
+                </p>
+                <p>CFS prides itself in <strong class="text-highlight">intensive</strong> and <strong class="text-highlight">competetive</strong> mat culture. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="model page-cont decoy-hack">
+          <h1> CFS MODEL </h1>
+          <h2> Martial Arts Will Change Your Life </h2>
+          <p> In CFS, each athlete or practicioner will be challenged physically and mentally to push through life's challenges.
+          We highly encourage each and every member to participate in all of our mentoring sessions.  </p>
+          <p> When present with a mentee or mentor, reflect the <strong class="text-highlight">HIGHEST</strong> version of yourself at all times! </p>
+          <p> Competition is not required, if you're looking to train and develop yourself you are <strong class="text-highlight">STRONGLY</strong> welcome to join.</p>
+        </div>
+        <div class="disciplines page-cont">
+          <h1> DISCIPLINES  </h1>
+          <div class="ui doubling grid">
+            <div class="two column row">
+              <div class="left floated column">
+                <h2> Muay Thai Boxing </h2>
+                <img class="body-img" src="muay-thai.png" width=150px;>
+                <p> Muay Thai or Thai Boxing is the national sport and cultural martial art of Thailand.
+                  It was developed several hundreds of years ago as a form of close-combat that utilizes the entire body as a weapon.
+                  Today its definitive origins are debated by modern scholars, as much of the muay thai history was lost when the Burmese ransacked Ayudhaya, Siam’s capital city in Thailand, during the 14th century.
+                </p>
+              </div>
+              <div class="right floated column">
+                <h2> Submission Wrestling </h2>
+                <img class="body-img" src="wrestling2.png" width=150px;>
+                <p>Submission wrestling is a form of competition and a general term for martial arts and combat sports that focus on clinch and ground fighting with the aim of obtaining a submission through the use of submission holds. The term "submission wrestling" usually refers only to the form of competition and training that does not use a gi, or "combat kimono", of the sort often worn with belts that establish rank by color, though some may use the loose trousers of such a uniform, without the jacket. </p>
+              </div>
+            </div>
+            <div class="two column row">
+              <div class="left floated column">
+                <h2> Brazillian Jiu Jitsu </h2>
+                <img class="body-img" src="martial-art.png" width=150px;>
+                <p> Brazilian Jiu-Jitsu (BJJ) is a grappling-based martial art whose central theme is the skill of controlling a resisting opponent in ways that force him to submit.
+                  Due to the fact that control is generally easier on the ground than in a standing position,
+                  much of the technique of Brazilian Jiu-Jitsu (BJJ) is centered round the skill of
+                  taking an opponent down to the ground and wrestling for dominant control positions from where the opponent can be rendered harmless.
+                  </p>
+              </div>
+              <div class="right floated column">
+                <h2> Self Defense </h2>
+                <img class="body-img" src="fighting.png" width=150px;>
+                <p>Many styles of martial arts are practiced for self-defense or include self-defense techniques. Some styles train primarily for self-defense, while other martial or combat sports can be effectively applied for self-defense. Some martial arts train how to escape from a knife or gun situation, or how to break away from a punch, while others train how to attack. To provide more practical self-defense, many modern martial arts schools now use a combination of martial arts styles and techniques, and will often customize self-defense training to suit individual participants.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+      <div class="contact-footer">
+      <h1>Join our system!</h1>
+      <form class="ui form contact-form" action="/sendEmail" method="post">
+        <h2>Please contact us for membership details!</h2>
         <div class="field">
           <label>Name</label>
           <input type="text" name='name' placeholder="Name" required>
